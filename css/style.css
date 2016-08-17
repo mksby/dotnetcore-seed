@@ -1,0 +1,4 @@
+body { margin: 0; padding: 0; }
+.tabs { display: flex; padding:0; margin: 0;  box-shadow: 0 0 8px #000; }
+.tabs li { padding: 10px 0; width: 100%; text-align: center; list-style: none; font: 20px Arial; cursor: pointer; background: #d0d0d0; color: #708170; -webkit-user-select: none; }
+.tabs li:hover { background: #d0e3ef; }
