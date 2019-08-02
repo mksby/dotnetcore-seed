@@ -7,15 +7,15 @@ import { LoginService } from './login.service';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
-  private _loginUser;
   private user;
 
-  loginUser(): void{
-    this.user = this._loginUser.login();
+  loginUser(): void {
+    this.user = this._loginUser.login().subscribe((data: any) => {
+      console.log(data)
+    });
   }
 
-  constructor(private loginService: LoginService) {
-    this._loginUser = loginService;
+  constructor(private _loginUser: LoginService) {
   }
 
   ngOnInit() {
