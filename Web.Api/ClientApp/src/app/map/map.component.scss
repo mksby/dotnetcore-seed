@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+  sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+button {
+  line-height: 38px;
+  border-style: none;
+  background-color: #ef7e31;
+  border-radius: 3px;
+  color: #fff;
+  outline-style: none;
+  font-size: inherit;
+  font-family: inherit;
+  width: 105px;
+  cursor: pointer;
+  transition: opacity 150ms ease;
+}
+
+button[disabled] {
+  opacity: 0.8;
+  cursor: default;
+  pointer-events: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#map-container {
+  width: 400px;
+  height: 400px;
+}
