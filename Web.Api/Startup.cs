@@ -100,6 +100,8 @@ namespace Web.Api
                 configureOptions.SaveToken = true;
             });
 
+            services.AddRouting(options => options.LowercaseUrls = true);
+
             // api user claim policy
             services.AddAuthorization(options =>
             {
