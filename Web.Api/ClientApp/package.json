@@ -22,8 +22,11 @@
     "@angular/platform-browser-dynamic": "~8.2.0",
     "@angular/router": "~8.2.0",
     "@material/textfield": "^3.1.0",
+    "@uirouter/angular": "^4.0.0",
+    "esri-leaflet": "^2.3.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
+    "ymaps": "^0.2.1",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
