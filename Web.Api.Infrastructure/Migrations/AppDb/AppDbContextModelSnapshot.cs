@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Web.Api.Infrastructure.Data;
 
-namespace Web.Api.Infrastructure.Migrations
+namespace Web.Api.Infrastructure.Migrations.AppDb
 {
     [DbContext(typeof(AppDbContext))]
     partial class AppDbContextModelSnapshot : ModelSnapshot

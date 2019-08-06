@@ -7,10 +7,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Web.Api.Infrastructure.Data;
 
-namespace Web.Api.Infrastructure.Migrations
+namespace Web.Api.Infrastructure.Migrations.AppDb
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20181014165611_initial")]
+    [Migration("20190806080206_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
