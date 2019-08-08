@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Newtonsoft.Json;
 using Web.Api.Core.Domain.Entities;
 using Web.Api.Infrastructure.Identity;
 

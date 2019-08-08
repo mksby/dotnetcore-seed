@@ -1,0 +1,224 @@
+﻿[
+  {
+    "id": 0,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        53.86,
+        27.55
+      ]
+    },
+    "properties": {
+      "balloonContent": "Октябрьский район"
+    },
+    "options": {
+      "iconLayout": "default#image",
+      "iconImageHref": "../../assets/rob22.png",
+      "iconImageSize": [
+        70,
+        89
+      ],
+      "iconImageOffset": [
+        -5,
+        -38
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        53.86,
+        27.602
+      ]
+    },
+    "properties": {
+      "balloonContent": "Ленинский район"
+    },
+    "options": {
+      "iconLayout": "default#image",
+      "iconImageHref": "../../assets/rob22.png",
+      "iconImageSize": [
+        70,
+        89
+      ],
+      "iconImageOffset": [
+        -5,
+        -38
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        53.87,
+        27.632
+      ]
+    },
+    "properties": {
+      "balloonContent": "Заводской район"
+    },
+    "options": {
+      "iconLayout": "default#image",
+      "iconImageHref": "../../assets/rob22.png",
+      "iconImageSize": [
+        70,
+        89
+      ],
+      "iconImageOffset": [
+        -5,
+        -38
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        53.906,
+        27.636
+      ]
+    },
+    "properties": {
+      "balloonContent": "Партизанский район"
+    },
+    "options": {
+      "iconLayout": "default#image",
+      "iconImageHref": "../../assets/rob22.png",
+      "iconImageSize": [
+        70,
+        89
+      ],
+      "iconImageOffset": [
+        -5,
+        -38
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        53.94,
+        27.631
+      ]
+    },
+    "properties": {
+      "balloonContent": "Первомайский район"
+    },
+    "options": {
+      "iconLayout": "default#image",
+      "iconImageHref": "../../assets/rob22.png",
+      "iconImageSize": [
+        70,
+        89
+      ],
+      "iconImageOffset": [
+        -5,
+        -38
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        53.942,
+        27.585
+      ]
+    },
+    "properties": {
+      "balloonContent": "Советский район"
+    },
+    "options": {
+      "iconLayout": "default#image",
+      "iconImageHref": "../../assets/rob22.png",
+      "iconImageSize": [
+        70,
+        89
+      ],
+      "iconImageOffset": [
+        -5,
+        -38
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        53.937,
+        27.53
+      ]
+    },
+    "properties": {
+      "balloonContent": "Центральный район"
+    },
+    "options": {
+      "iconLayout": "default#image",
+      "iconImageHref": "../../assets/rob22.png",
+      "iconImageSize": [
+        70,
+        89
+      ],
+      "iconImageOffset": [
+        -5,
+        -38
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        53.9089,
+        27.455
+      ]
+    },
+    "properties": {
+      "balloonContent": "Фрунзенский район"
+    },
+    "options": {
+      "iconLayout": "default#image",
+      "iconImageHref": "../../assets/rob22.png",
+      "iconImageSize": [
+        70,
+        89
+      ],
+      "iconImageOffset": [
+        -5,
+        -38
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        53.873,
+        27.48
+      ]
+    },
+    "options": {
+      "iconLayout": "default#image",
+      "iconImageHref": "../../assets/rob22.png",
+      "iconImageSize": [
+        70,
+        89
+      ],
+      "iconImageOffset": [
+        -5,
+        -38
+      ]
+    }
+  }
+]

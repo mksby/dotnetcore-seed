@@ -8,7 +8,7 @@ using Web.Api.Infrastructure.Data;
 
 namespace Web.Api.Infrastructure.Migrations.AppDb
 {
-    [DbContext(typeof(AppDbContext))]
+    [DbContext(typeof(MemoryDbContext))]
     partial class AppDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

@@ -1,7 +1,11 @@
 ﻿using Autofac;
+using Microsoft.EntityFrameworkCore;
+using Web.Api.Core.Interfaces.Gateways;
 using Web.Api.Core.Interfaces.Gateways.Repositories;
 using Web.Api.Core.Interfaces.Services;
 using Web.Api.Infrastructure.Auth;
+using Web.Api.Infrastructure.Data;
+using Web.Api.Infrastructure.Data.Mapping;
 using Web.Api.Infrastructure.Data.Repositories;
 using Web.Api.Infrastructure.Interfaces;
 using Web.Api.Infrastructure.Logging;
@@ -19,6 +23,7 @@ namespace Web.Api.Infrastructure
             builder.RegisterType<TokenFactory>().As<ITokenFactory>().SingleInstance();
             builder.RegisterType<JwtTokenValidator>().As<IJwtTokenValidator>().SingleInstance().FindConstructorsWith(new InternalConstructorFinder());
             builder.RegisterType<Logger>().As<ILogger>().SingleInstance();
+            builder.RegisterType<MemoryDbContext>().As<IMemoryDbContext>().SingleInstance();
         }
     }
 }
